@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c267e5f594f62e341364",
+    "revision": "60202df09c8581ba23d0",
     "url": "/minimum-steps-to-reach-a-target-by-a-knight/static/css/main.27bccccb.chunk.css"
   },
   {
-    "revision": "c267e5f594f62e341364",
-    "url": "/minimum-steps-to-reach-a-target-by-a-knight/static/js/main.ef7a150b.chunk.js"
+    "revision": "60202df09c8581ba23d0",
+    "url": "/minimum-steps-to-reach-a-target-by-a-knight/static/js/main.10df85d3.chunk.js"
   },
   {
     "revision": "11902d8ed9439304e786",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/minimum-steps-to-reach-a-target-by-a-knight/static/js/2.67b98335.chunk.js"
   },
   {
-    "revision": "356a4b3d2ddbac18ee775040f7fd88ff",
+    "revision": "0ad9cd29539390c2d1850afd03fcd63f",
     "url": "/minimum-steps-to-reach-a-target-by-a-knight/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/minimum-steps-to-reach-a-target-by-a-knight/precache-manifest.7d68683cc16dfd3c597bc325e4924fcc.js"
+  "/minimum-steps-to-reach-a-target-by-a-knight/precache-manifest.e362d11cd109a2ff1dfac7b77f0f9c05.js"
 );
 
 workbox.clientsClaim();
