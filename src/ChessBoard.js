@@ -134,8 +134,8 @@ class ChessBoard extends React.Component {
                 let moves = ChessBoard.countMoves(this.state.sizeOfBoard,
                     this.state.knightX,
                     this.state.knightY,
-                    this.state.targetX,
-                    this.state.targetY);
+                    x,
+                    y);
                 this.setState({moves: moves});
             }
         } else {
@@ -145,15 +145,20 @@ class ChessBoard extends React.Component {
 
     renderBoard() {
         let rows = [];
+        let sizeOfBoard = this.state.sizeOfBoard;
         for (let i = 0; i < this.state.sizeOfBoard; i++) {
             let cols = [];
             for (let j = 0; j < this.state.sizeOfBoard; j++) {
                 if ((i + j) % 2 === 1) {
-                    cols.push(<td align="center" onClick={event => this.handleClicked(event, i, j)} key={[i, j]}
-                                  style={{"backgroundColor": "grey"}}>{this.renderChess(i, j)}</td>)
+                    cols.push(<td align="center"
+                                  onClick={event => this.handleClicked(event, sizeOfBoard - i - 1, sizeOfBoard - j - 1)}
+                                  key={[i, j]}
+                                  style={{"backgroundColor": "grey"}}>{this.renderChess(sizeOfBoard - i - 1, sizeOfBoard - j - 1)}</td>)
                 } else {
-                    cols.push(<td align="center" onClick={event => this.handleClicked(event, i, j)} key={[i, j]}
-                                  position={[i, j]}>{this.renderChess(i, j)}</td>)
+                    cols.push(<td align="center"
+                                  onClick={event => this.handleClicked(event, sizeOfBoard - i - 1, sizeOfBoard - j - 1)}
+                                  key={[i, j]}
+                                  position={[i, j]}>{this.renderChess(sizeOfBoard - i - 1, sizeOfBoard - j - 1)}</td>)
                 }
             }
             rows.push(<tr key={i}>{cols}</tr>);
