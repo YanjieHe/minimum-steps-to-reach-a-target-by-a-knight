@@ -2,7 +2,7 @@
   "name": "minimum-steps-to-reach-a-target-by-a-knight",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yanjiehe.github.io/minimum-steps-to-reach-a-target-by-a-knight",
+  "homepage": "https://yanjiehe.github.io/minimum-steps-to-reach-a-target-by-a-knight",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
